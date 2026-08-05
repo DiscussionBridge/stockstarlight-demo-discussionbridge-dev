@@ -1,0 +1,20 @@
+{
+  "name": "discussionbridge-demo-stock-starlight",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "deploy:dry-run": "wrangler deploy --dry-run",
+    "deploy": "wrangler deploy --strict"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "^0.41.2",
+    "astro": "^7.0.4"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
