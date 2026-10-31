@@ -1,3 +1,5 @@
+import { starlightAnalytics } from '@codeworkslabs/astro-analytics/starlight';
+import { analyticsOptions } from './analytics.config.mjs';
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 
@@ -5,6 +7,7 @@ export default defineConfig({
   site: "https://stockstarlight.demo.discussionbridge.dev",
   integrations: [
     starlight({
+      plugins: [starlightAnalytics(analyticsOptions)],
       title: "Stock Starlight Control",
       head: [
         { tag: "meta", attrs: { property: "og:image", content: "https://demo.discussionbridge.dev/og.png" } },
