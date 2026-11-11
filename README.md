@@ -1,6 +1,8 @@
 # Stock Starlight Control Demo
 
-Public surface: https://stockstarlight.demo.discussionbridge.dev/
+[Open the stock Starlight demo](https://stockstarlight.demo.discussionbridge.dev/)
+or find the integrated examples in the
+[DiscussionBridge demo chooser](https://demo.discussionbridge.dev/).
 
 This repository is the stock Starlight control surface used alongside the
 DiscussionBridge demos. It builds and deploys independently as a Cloudflare
