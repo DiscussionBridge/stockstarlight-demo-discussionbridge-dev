@@ -1,21 +1,15 @@
-# Stock Starlight Control Demo
+# Stock Starlight Demo
 
-[Open the stock Starlight demo](https://stockstarlight.demo.discussionbridge.dev/)
-or find the integrated examples in the
-[DiscussionBridge demo chooser](https://demo.discussionbridge.dev/).
+See the stock Starlight experience alongside the DiscussionBridge examples.
 
-This repository is the stock Starlight control surface used alongside the
-DiscussionBridge demos. It builds and deploys independently as a Cloudflare
-Worker with static assets and intentionally contains no DiscussionBridge
-integration. Its only shared operational addition is the DiscussionBridge
-Google Analytics property `G-K9SYR7QENF`, injected through a head override that
-preserves Starlight's native metadata.
+[Open the site](https://stockstarlight.demo.discussionbridge.dev/) · [DiscussionBridge Starlight demo](https://astrostarlight.demo.discussionbridge.dev/) · [All demos](https://demo.discussionbridge.dev/)
 
-```powershell
+## Preview the source
+
+```sh
 npm ci
 npm run build
-npm run deploy:dry-run
-npm run deploy
 ```
 
-Deployment requires a reviewed build and explicit production authorization.
+See [Versions and Live Status](https://docs.discussionbridge.dev/versions-and-live-status/) for DiscussionBridge source tags
+and deployment records.
